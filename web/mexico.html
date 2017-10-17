@@ -1,0 +1,227 @@
+﻿<!-- <!DOCTYPE html> -->
+  <head>      
+    <meta charset="utf-8">
+    <meta name="description" content="Бронируй столик в ресторане Mexi&Co! Здесь уютно, вкусно и тепло.">
+    <title>Ресторан Mexi&Co</title>
+  </head>
+
+  <body>   
+    <div class="container">  
+    <div id="slides" class="background">
+        <div id="main_image" class="slide-intro"> 
+           <div class="contacts">
+             <h2>Санкт-Петербург<br>ул. Будапештская, 8<br>8-(842)-345-47-12</h2>
+           </div>
+          
+           <header class="main-header">
+             <div class="logo">
+               <img src="https://s20.postimg.org/uzw3zssil/logo.png" alt="Мексиканский ресторан Mexi&Co" title="Мексиканский ресторан Mexi&Co">
+             </div>
+             <div id="name">
+               <div>M</div>
+               <div>e</div>
+               <div>x</div>
+               <div>i</div>
+               <div>&</div>
+               <div>C</div>
+               <div>o</div> 
+             </div>  
+          </header> 
+        </div>
+    
+      
+    <article id="booking">
+      <h3>Забронировать столик</h3>
+      
+      <p><label>Дата визита<input id="date-of-booking" type="text"></label></p>
+      
+      <p><label>Количество гостей<select id="number">
+        <option value="1">1</option>
+        <option selected value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+      </select></label></p>
+      
+      <label class="label">Карта клиента
+        <input class="checkbox" type="checkbox" name="card" id="card">
+        <p class="checkbox-custom"></p> 
+      </label>
+          
+      <p><label>Сумма депозита: <output name="result" id="result">0</output>  рублей</label></p>
+    
+    </article>
+                    
+    <aside>
+      <h3>Меню</h3>
+      <div class="menu-items">
+        <p>Супы</p>
+        <div class="catalog-item">
+          <div class="catalog-item-name">
+            Crema de champiñones
+          </div>
+          <div class="catalog-item-pic">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxkwzWv9mOHkXoLMStidGouUYdb5Af7lFqaWZDS2VINoslmH_l" alt="Crema de champiñones" title="Crema de champiñones"> 
+            <div class="description">
+              <div class="description-text">
+                <p>Суп-пюре из шампиньонов. Подается с пшеничными сухариками и петрушкой.</p>
+              </div>
+            </div>
+          </div>
+          <div class="price">220 р.
+          <div class="wt">(320 г)</div>
+          </div>
+        </div>
+     
+        <div class="catalog-item">
+          <div class="catalog-item-name">
+            Gazpacho
+          </div>
+          <div class="catalog-item-pic">
+            <img src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb0AQRLA42xQvHpM59_UPA5xa3ktecZ_sKdqorXwEPlax7c7dK" alt=" Gazpacho" title=" Gazpacho">
+            <div class="description">
+              <div class="description-text">
+                <p>Холодный суп из перетёртых в пюре свежих овощей. Подается с зеленью и пшеничной лепешкой.</p>
+              </div>
+            </div>
+          </div>
+          <div class="price">260 р.
+            <div class="wt">(320 г)</div> 
+          </div>
+        </div>
+    
+        <div class="catalog-item">
+          <div class="catalog-item-name">
+            Frijoles churros 
+          </div>
+          <div class="catalog-item-pic">
+            <img src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBCzIn8TGXSu5fapGQUizBn0GLxxclt5zVC_dscTmXXwDpntd1tA" alt="Frijoles churros" title="Frijoles churros">
+            <div class="description">
+              <div class="description-text">
+                <p>Традиционный мексиканский суп с фасолью и мясом. Подается с острыми кукурузными чипсами.</p>
+              </div>
+            </div>
+          </div>
+          <div class="price">300 р.
+            <div class="wt">(320 г)</div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="menu-items">
+        <p>Горячие блюда</p>
+        <div class="catalog-item">
+          <div class="catalog-item-name">
+            Fajitas
+          </div>
+          <div class="catalog-item-pic">
+            <img src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqlR-MHCcQJOhtZ9aTubOnA0UbNaksjRiPDEuzJTApGMeAdYRJdQ" alt="Fajitas" title="Fajitas">
+            <div class="description">
+              <div class="description-text">
+                <p>Жареные на гриле кусочки говядины. Подается на горячей сковороде с овощами.</p>
+              </div> 
+            </div> 
+          </div>
+          <div class="price">520 р.
+            <div class="wt">(320 г)</div> 
+          </div> 
+        </div>
+        
+        <div class="catalog-item">
+          <div class="catalog-item-name">
+            Tacos
+          </div>
+          <div class="catalog-item-pic">
+            <img src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDxnYX19RNTkByrngJndfQybJ4U7b1kXOwBcKC_keDyqGenxYbWA" alt="Tacos" title="Tacos">
+            <div class="description">
+              <div class="description-text">
+                <p>Обжаренная в сыре свинина со свежими овощами и чесночным соусом на кукурузных тортильях.</p> 
+              </div> 
+            </div> 
+          </div>
+          <div class="price">490 р.
+            <div class="wt">(400 г)</div>  
+          </div> 
+        </div>
+        
+        <div class="catalog-item">
+          <div class="catalog-item-name">
+            Burrito 
+          </div>
+          <div class="catalog-item-pic">
+            <img src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSql8Z68VvIrb-SH7j7bP7n6sd6qSdXfv6tIoIkaK1d2BrE-cWA" alt="Burrito" title="Burrito">
+            <div class="description">
+              <div class="description-text">
+                <p>Большая пшеничная тортилья с овощами, фасолевым пюре и сыром.</p> 
+              </div> 
+            </div> 
+          </div>
+          <div class="price">480 р.
+            <div class="wt">(500 г)</div> 
+          </div> 
+        </div> 
+      </div>
+      
+      <div class="menu-items">
+        <p>Десерты</p>
+        <div class="catalog-item">
+          <div class="catalog-item-name">
+            Churros
+          </div>
+          <div class="catalog-item-pic">
+            <img src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_IoLLo_2Bgu-0zRXWktHSPuoFElV4w4d1Yd06e64z9ytCfnxF" alt="Churros" title="Churros">
+            <div class="description">
+              <div class="description-text">
+                <p>Сладкая обжаренная выпечка из заварного теста. Подается с шоколадным соусом и сахарной пудрой.</p> 
+              </div> 
+            </div>
+          </div>
+          <div class="price">180 р.
+            <div class="wt">(130 г)</div> 
+          </div> 
+        </div>
+        
+        <div class="catalog-item">
+          <div class="catalog-item-name">
+            Tiramisu
+          </div>
+          <div class="catalog-item-pic">
+            <img src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeafHAvI3nkT4ej-cLVG7CgVybvG6GiKaR6uw9Ch6B657CLEV0" alt="Tiramisu" title="Tiramisu">
+            <div class="description">
+              <div class="description-text">
+                <p>Печенье "Савоярди", пропитанное кофе, два слоя крем-сыра "Маскарпоне", шоколадная обсыпка.</p>
+              </div> 
+            </div> 
+          </div> 
+          <div class="price">250 р.
+            <div class="wt">(120 г)</div> 
+          </div> 
+        </div>
+        
+        <div class="catalog-item">
+          <div class="catalog-item-name">
+            Flan Napolitano
+          </div>
+          <div class="catalog-item-pic">
+            <img src= "https://bestoflifemag.com/wp-content/uploads/2013/02/Irish-Cream-Cr%C3%A8me-Br%C3%BBl%C3%A9e2.jpg" alt="Flan Napolitano" title="Flan Napolitano">
+            <div class="description">
+              <div class="description-text">
+                <p>Традиционный мексиканский десерт.</p> 
+              </div> 
+            </div>
+          </div> 
+          <div class="price">180 р. 
+            <div class="wt">(130 г)</div> 
+          </div> 
+        </div>
+      </div> 
+      
+    </aside>
+   </div>
+ </div> 
+</body>
