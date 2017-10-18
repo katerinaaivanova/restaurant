@@ -27,9 +27,7 @@ header {
   font-style: italic;
   font-size: 120px;
   font-weight: bold;
-  
-    font-family: https://fonts.googleapis.com/css?family=Philosopher, cursive;
-  /*font-family: 'Philosopher'*/; 
+  font-family: 'Philosopher'; 
 }
 
 #name {
@@ -86,8 +84,7 @@ header {
 h3{
   font-size: 35px;
   color: #cc5533;
-  font-family: https://fonts.googleapis.com/css?family=Marck+Script
-  /*font-family: 'Marck Script', cursive*/;
+  font-family: 'Marck Script', cursive;
   text-align:center;
 }
 
@@ -208,8 +205,7 @@ aside {
 
 p {
   font-size: 30px;
-  font-family: https://fonts.googleapis.com/css?family=Marck+Script
-  /*font-family: 'Marck Script', cursive*/;
+  font-family: 'Marck Script', cursive;
 }
 
 .catalog-item-pic {
