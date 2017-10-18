@@ -1,5 +1,5 @@
-@import(url https://fonts.googleapis.com/css?family=Philosopher);
-@import(url https://fonts.googleapis.com/css?family=Marck+Script);
+@import url(https://fonts.googleapis.com/css?family=Philosopher);
+@import url(https://fonts.googleapis.com/css?family=Marck+Script);
 
 .container {
   margin: 30px auto;
