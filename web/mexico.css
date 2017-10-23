@@ -246,7 +246,7 @@ p {
   background:rgba(0,0,0, 0.6);
   color:white;
   
-  display:none;
+  opacity:0;
   
   -webkit-transition: all 1s linear;
   -moz-transition: all 1s linear;
@@ -269,5 +269,5 @@ p {
 }
 
 .catalog-item-pic:hover .description {
-    display:block;
+    opacity:1;
 }
