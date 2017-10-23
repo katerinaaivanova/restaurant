@@ -240,7 +240,7 @@ p {
 .description {
   position:absolute;
   left:0;
-  /*bottom:3px;*/
+  bottom:0px;
   right:0;
   top:0;
   background:rgba(0,0,0, 0.6);
