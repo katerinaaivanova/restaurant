@@ -246,7 +246,13 @@ p {
   background:rgba(0,0,0, 0.6);
   color:white;
   
-  display:none;  
+  display:none;
+  
+  -webkit-transition: all 1s linear;
+  -moz-transition: all 1s linear;
+  -ms-transition: all 1s linear;
+  -o-transition: all 1s linear;
+  transition: all 1s linear;
 }
 
 .description-text p {
